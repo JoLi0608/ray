@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 
 from ray.rllib.contrib.bandits.agents import LinTSTrainer
 from ray.rllib.contrib.bandits.envs import WheelBanditEnv
-from ray.rllib.utils.metrics.learner_info import LEARNER_INFO
+from ray.rllib.contrib.bandits.agents import LEARNER_INFO
 
 
 def plot_model_weights(means, covs):
